@@ -1,0 +1,50 @@
+Title screen
+
+User Sign In:
+	First version, just ask username. Progress not saved
+	Version 2: Saving and loading money in a .txt file
+
+~while stillPlaying == true~
+Playing A Hand of Blackjack:
+	Amount to Bet:
+		Version 1: Deduct from PlayerCash, assign to Bet variable
+		Version 2: Error Handling
+
+	Deal Player and Dealer:
+		Version 1: Cards are just dealt in correct range, no tracking cards. Only identified by letters
+		Version 2: ASCII Cards can be displayed
+		Version 3: Which cards have been used this hand are actually tracked
+	
+	While Player is not busted or standing
+	Player Action:
+		Version 1: Hit, Stand
+		Version 2: Double, Hit, Stand, Split
+
+	~If Player hasn't busted and is standing~
+	Dealer takes his turns.
+		Version 1: Dealer hits until his hand >= 17 or he busts
+
+	Determine winner, pay out 
+		Player Blackjack pays out 3:1
+
+	If PlayerCash <= 0, then Game Over
+
+	Player Asked - Play another Hand: Yes No?
+
+
+
+Deck of cards:
+Four suits
+1-13
+1 = Ace
+11 = Jack
+12 = Queen
+13 = King
+
+if Ace value is then 1 or 11.
+if card > 10, then value is 10
+
+
+----
+
+'It's not about the Blackjack'
